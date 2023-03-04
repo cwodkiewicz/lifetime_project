@@ -1,4 +1,4 @@
-#lifetime_project
+# lifetime_project
 
 This health website is a comprehensive platform designed to provide information and resources on various health-related topics. It includes features such as a home page, about page, contact page, shop page, and cart page. The website aims to provide the best reliable supplements for healthy individuals. Another goal of the website is to educate and empower individuals to make informed decisions about their health and wellness.
 

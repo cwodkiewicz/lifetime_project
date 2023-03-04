@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script src="/js/cart.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Cart</h1>
+
+      <div id="cart-items"></div>
+    </main>
+
+    <footer>
+      <p>&copy; Lifetime Supplements. All Rights Reserved.</p>
+    </footer>
+
+    <!-- <script>
+      const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+
+      if (cartItems && cartItems.length > 0) {
+        const cartItemsDiv = document.getElementById("cart-items");
+        let cartItemsHTML = "";
+
+        for (let i = 0; i < cartItems.length; i++) {
+          const cartItem = cartItems[i];
+
+          cartItemsHTML += `
+            <div class="product">
+              <img src="${cartItem.image}" alt="${cartItem.name}" />
+              <h2>${cartItem.name}</h2>
+              <p>${cartItem.price}</p>
+            </div>
+          `;
+        }
+
+        cartItemsDiv.innerHTML = cartItemsHTML;
+      }
+    </script> -->
+  </body>
+</html>
